@@ -1,0 +1,38 @@
+.battery {
+    width: 120px;
+    height: 80px;
+    margin: 30px;
+    background-color: bisque;
+    border-radius: 20px;
+    position: relative;
+}
+
+.slider {
+    width: 21px;
+    height: 80px;
+    background-color: red;
+    border-radius: 47px 20px 20px 47px;
+    position: absolute;
+    top: 0px;
+    left: -2px;
+}
+
+.top {
+    width: 25px;
+    height: 34px;
+    background-color: bisque;
+    border-radius: 0 10px 10px 0;
+    position: absolute;
+    top: 25px;
+    left: 120px;
+}
+
+.slider:hover {
+    transition: 3s;
+    transform: translateX(10px);
+    width: 110px;
+    height: 80px;
+    border-radius: 20px ;
+    background-color: green;
+    cursor: pointer;
+}
